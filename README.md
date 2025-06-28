@@ -28,8 +28,7 @@ The chatbot uses the Ollama Gemma 3 LLM with LangChain Tracing.
 The model takes a user prompt as input and responds with output.
 
 Run this using:
-   ```bash
-   streamlit run app.py
+streamlit run app.py
 
 ## API
 
@@ -37,9 +36,8 @@ The backend is in `client.py`, which uses LangChain + FastAPI, and the frontend 
 The app uses Ollama Gemma 3 for generating a 100-word essay on a user-given topic, and Ollama Moondream 2 for generating a poem similarly on a user-given topic.
 
 Run this in two separate terminals using:
-   ```bash
-   python client.py
-   streamlit run app.py
+python client.py
+streamlit run app.py
 
 ## RAG
 `simplerag.ipynb` demonstrates data ingestion methods such as TextLoader, WebBaseLoader, and PyPDFLoader.
@@ -55,5 +53,4 @@ Ollama Mistral LLM is used here, since models like Gemma 3 do not perform well i
 The app uses Mistral-Saba-24b, called using a Groq API key, which acts as an agent. The agent uses a retriever tool to fetch documents from a web page ingested with WebBaseLoader, vector-embedded using Ollama, and stored in a FAISS vector database.
 
 Run this using:
-   ```bash
-   streamlit run app.py
+streamlit run app.py
