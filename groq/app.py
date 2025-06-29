@@ -49,7 +49,7 @@ prompt=st.text_input("Ask a question")
 if prompt:
     start=time.process_time()
     response=retrieval_chain.invoke({"input":prompt})
-    print("Response time: ",time.process_time()-start)
+    print("Response time:",time.process_time()-start)
     st.write(response['answer'])
 
     #With a streamlit expader
