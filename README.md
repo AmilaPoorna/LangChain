@@ -58,3 +58,10 @@ The app uses Mistral-Saba-24b, called using a Groq API key, which acts as an age
 Run this using:
 1. ```bash
    streamlit run app.py
+
+## Final Project
+The app uses Llama3-8b-8192, called using a Groq API key. It uses a retriever tool to fetch documents from a PDF folder ingested with PyPDFLoader, vector-embedded using Ollama, and stored in a FAISS vector database.
+
+Run this using:
+1. ```bash
+   streamlit run app.py
