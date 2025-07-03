@@ -62,7 +62,7 @@ Run this using:
 ## Final Project - RPABot
 RPABot is a friendly chatbot that specializes in robotic process automation. It uses Llama3-8b-8192, called using a Groq API key. It uses a retriever tool to fetch documents from a PDF folder ingested with PyPDFLoader, vector-embedded using Ollama, and stored in a FAISS vector database. It also avoids unnecessary re-embedding by checking PDF content hash.
 
-![IDemo](https://github.com/user-attachments/assets/76a3be7e-4999-426b-9e21-5b3a4f7cc99a)
+![Image](https://github.com/user-attachments/assets/76a3be7e-4999-426b-9e21-5b3a4f7cc99a)
 
 Run this using:
 1. ```bash
